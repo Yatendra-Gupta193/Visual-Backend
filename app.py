@@ -4,7 +4,7 @@ Flask Application for Visual Localization API.
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from werkzeug.utils import secure_filename
+from werkzeug.utils import secure_filename 
 
 from visual_service import get_visual_localization_service
 from utils import (   
