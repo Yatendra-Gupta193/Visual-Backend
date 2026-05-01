@@ -7,7 +7,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 from visual_service import get_visual_localization_service
-from utils import (
+from utils import (   
     validate_file, create_response, save_feedback, 
     load_feedback, get_config
 )
