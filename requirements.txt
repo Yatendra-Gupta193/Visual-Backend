@@ -8,7 +8,7 @@ Pillow==10.1.0
 
 # OCR
 easyocr==1.7.0
-pytesseract==0.3.10
+pytesseract==0.3.10  
 
 # AI/ML - Image Captioning
 transformers==4.35.2
