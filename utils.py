@@ -7,7 +7,7 @@ from datetime import datetime
 from flask import jsonify
 
 # Configuration
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'webp'}
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'webp'} 
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
 
 # Feedback storage file
