@@ -4,7 +4,7 @@ Image Captioning Service using OpenAI Vision API.
 import os
 import base64
 
-
+ 
 class CaptioningService:
     """
     Service for generating detailed image descriptions using OpenAI Vision API.
